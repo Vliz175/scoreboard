@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Scoreboard</title>
+  </head>
+  <body>
+    <section id="score">
+      <div class="square home">
+        <h1>HOME</h1>
+        <div class="score">0</div>
+        <button class="p1">+ 1</button>
+      </div>
+
+      <div class="square guest">
+        <h1>GUEST</h1>
+        <div class="score">0</div>
+        <button class="p2">+ 1</button>
+      </div>
+    </section>
+
+    <section id="control">
+      <select name="maxScore" id="maxScore">
+        <option value="0">0</option>
+        <option value="3">3</option>
+        <option value="5">5</option>
+      </select>
+      <button id="reset">Reset</button>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

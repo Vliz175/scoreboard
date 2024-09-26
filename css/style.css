@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@400;500;600;700&family=Skranji:wght@400;700&display=swap");
+/* .kay-pho-du-regular {
+  font-family: "Kay Pho Du", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kay-pho-du-medium {
+  font-family: "Kay Pho Du", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.kay-pho-du-semibold {
+  font-family: "Kay Pho Du", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.kay-pho-du-bold {
+  font-family: "Kay Pho Du", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+ */
+/*  */
+/* .skranji-regular {
+  font-family: "Skranji", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.skranji-bold {
+  font-family: "Skranji", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+/** Section score area */
+section#score {
+  display: flex;
+  width: 40vw;
+  justify-content: space-between;
+}
+
+section#score .square {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 15rem;
+}
+
+section#score .square h1 {
+  font-size: 2.5rem;
+  font-family: "Kay Pho Du", serif;
+  font-weight: 800;
+}
+
+section#score .square .score {
+  width: 150px;
+  height: 100px;
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+section#score .square button {
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+
+/** Section control area */
+section#control {
+  margin-top: 3rem;
+  /* border: 1px solid black; */
+  min-height: 3rem;
+  min-width: 8rem;
+}
