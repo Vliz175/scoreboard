@@ -110,6 +110,7 @@ section#control {
 
 section#control select {
   height: 2rem;
+  border: 1px solid black;
 }
 
 section#control #reset {

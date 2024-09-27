@@ -59,4 +59,8 @@ scoreOption.addEventListener("change", function () {
   }
 });
 
-resetBtn.addEventListener("click", reset);
+resetBtn.addEventListener("click", () => {
+  if (maxScore != 0) {
+    reset();
+  }
+});

@@ -1,0 +1,12 @@
+@media screen and (max-width: 576px) {
+  section#score {
+    /* border: 1px solid black; */
+    width: 80vw;
+  }
+
+  section#score .square .score {
+    width: 120px;
+    height: 100px;
+    border: 3px solid black;
+  }
+}

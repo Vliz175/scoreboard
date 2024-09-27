@@ -1,0 +1,6 @@
+@media screen and (max-width: 992px) {
+  section#score {
+    /* border: 1px solid black; */
+    width: 60vw;
+  }
+}
