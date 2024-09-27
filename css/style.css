@@ -46,7 +46,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 90vh;
+  min-height: 90vh;
+  /* border: 1px solid black; */
 }
 
 /** Section score area */
@@ -54,6 +55,7 @@ section#score {
   display: flex;
   width: 40vw;
   justify-content: space-between;
+  /* border: 1px solid black; */
 }
 
 section#score .square {
@@ -98,8 +100,24 @@ section#score .square button {
 
 /** Section control area */
 section#control {
+  display: flex;
+  flex-direction: column;
   margin-top: 3rem;
   /* border: 1px solid black; */
   min-height: 3rem;
   min-width: 8rem;
+}
+
+section#control select {
+  height: 2rem;
+}
+
+section#control #reset {
+  margin-top: 1rem;
+  height: 2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
